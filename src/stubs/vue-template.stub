@@ -1,0 +1,13 @@
+<template>
+    <!-- template for {Component} goes here.. -->
+</template>
+<script>
+    export default{
+        name: "{Component}",
+        data(){
+            return {
+                //
+            }
+        }
+    }
+</script>

@@ -1,0 +1,28 @@
+{
+    "name": "minasm/artisan-vue-make",
+    "description": "Add artisan make:vue-component to artisan commands",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Minas Miroglu",
+            "email": "minas@gratas.co.uk"
+        }
+    ],
+    "require": {
+            "php": "^7.2.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Minasm\\VueMake\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Minasm\\VueMake\\VuemakeServiceProvider"
+            ]
+        }
+    }
+}
